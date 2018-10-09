@@ -12,7 +12,7 @@ const users = [{
     email: 'francis@gmail.com',
     password: 'userOnePass',
     tokens: [{
-        acces: 'auth',
+        access: 'auth',
         token: jwt.sign({_id: userOneId, access: 'auth'}, 'abc123').toString()
     }]
 }, {
